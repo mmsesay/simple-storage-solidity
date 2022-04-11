@@ -13,6 +13,11 @@
 						"type": "string"
 					},
 					{
+						"internalType": "string",
+						"name": "_sex",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
 						"name": "_age",
 						"type": "uint256"
@@ -61,35 +66,14 @@
 						"internalType": "string",
 						"name": "name",
 						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "sex",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "retrieve",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
-					}
-				],
-				"name": "store",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -106,7 +90,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStorage/contracts/SimpleStorage.sol": "SimpleStorage"
+			"simple-storage-solidity/contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -120,12 +104,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleStorage/contracts/SimpleStorage.sol": {
-			"keccak256": "0x8312ed2ce1bb8d237218edb3913ced2eed2b43fe432461d2ee67d0e97d60a363",
+		"simple-storage-solidity/contracts/SimpleStorage.sol": {
+			"keccak256": "0x7c5d4c0edba153b687538720bd67a6cdd905d00bb4b26309dd6aa7edc079a28b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5be73df270cc93e7f678da296440537f9bd808fce583c580d2054ea0b0952fe",
-				"dweb:/ipfs/QmbRmzqSds7bNbrKYBWXodMXe3jD3hMDchTENXNcLvD9Rf"
+				"bzz-raw://b28b70cc5ed0cbb446f6df1d3d0699c8e3541099dc475f80bab9b2427050ee84",
+				"dweb:/ipfs/QmQ81zScE3kfQpzKD7NMXdG91ewY2Aj7nhBNZx4gZZTSBH"
 			]
 		}
 	},
